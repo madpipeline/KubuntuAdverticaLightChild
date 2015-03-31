@@ -10,5 +10,10 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.0.2 =
+* Added 4th featured box
+* Added featured image to header
+* Added theme screenshot
+
 = 0.0.1 =
 * Initial release, no changes from original
