@@ -11,3 +11,67 @@ Tags: blue, gray, orange, pink, purple, dark, light, two-columns, right-sidebar,
 Text Domain: advertica-lite-child
 Template: advertica-lite
 */
+.skt-section {
+  margin-bottom: 65px;
+}
+.skt-featured-image-mask {
+  background: none;
+}
+.skt-awesome-title {
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 1);
+}
+#full-division-box {
+  height:220px;
+}
+blockquote.feature-tour_section-title {
+  margin-right: 0px;
+}
+blockquote.feature-tour_section-title h2{
+  color: #ffffff;
+  font-style: italic;
+}
+.screenshot-shaddow {
+  box-shadow: 0px 0px 25px #888888;
+}
+.container_inner.clearfix {
+  /*background: rgba(255, 255, 255, 0.90);
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px grey;
+  padding: 2px;*/
+  
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+}
+#sidebar #searchform input[type="text"]
+{
+  width: 195px;
+}
+p {
+  font-size: 16px;
+}
+h2 {
+  font-size: 22px;
+}
+#skenav a {
+  font-size: 16px;
+  line-height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.skehead-headernav .logo {
+  margin-top: 10px;
+}
+#logo {
+  margin: 0px;
+  max-height: 70px;
+}
+div.nav-section-container {
+  text-align: center
+}
+img.nav-section {
+  margin: 2px;
+  width: 125px;
+  height: 125px;
+  cursor:pointer;
+}
