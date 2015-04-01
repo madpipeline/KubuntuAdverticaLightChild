@@ -75,3 +75,12 @@ img.nav-section {
   height: 125px;
   cursor:pointer;
 }
+#skenav .ske-menu, ul.menu {
+  font-size: 16px;
+}
+#footer .third_wrapper .copyright {
+  font-size: 14px;
+}
+#footer .third_wrapper .owner {
+  font-size: 14px;
+}
