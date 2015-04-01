@@ -10,6 +10,9 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.0.3 =
+* Copied template files from parent theme that include the featured box template
+
 = 0.0.2 =
 * Added 4th featured box
 * Added featured image to header
