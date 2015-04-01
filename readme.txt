@@ -11,6 +11,10 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.0.5 =
+* Added Feature box template dependecies
+* Added Shortcode for current year in Footer Copyright
+
 = 0.0.4 =
 * Moved the custom style from plugin to theme style.css
 

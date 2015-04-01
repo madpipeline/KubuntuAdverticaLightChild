@@ -18,3 +18,7 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
 }
+
+// [year]
+function year_func() { return date('Y'); }
+add_shortcode('year', 'year_func');
