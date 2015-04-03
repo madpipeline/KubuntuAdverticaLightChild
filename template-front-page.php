@@ -6,7 +6,7 @@
 <?php include("includes/front-featured-boxes-section.php"); ?>
 
 <!-- AWESOME PARALLAX SECTION -->
-<?php include("includes/front-parallax-section.php"); ?>
+<?php //include("includes/front-parallax-section.php"); ?>
 
 <!-- PAGE EDITER CONTENT -->
 <?php if(have_posts()) : ?>

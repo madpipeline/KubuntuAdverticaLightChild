@@ -11,6 +11,17 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.1.0 =
+* Removed the paralax completely
+* Fixed headers (only one H1 per page)
+* Fixed headers font-size and line-height
+* Headers now use Oxygen font
+* Made the post meta data pretty
+* Removed the post title duplication
+* Removed the post featured image from single post view
+* Fixed News page title
+* Fixed front page header image responsiveness
+
 = 0.0.5 =
 * Added Feature box template dependecies
 * Added Shortcode for current year in Footer Copyright

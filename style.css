@@ -11,6 +11,41 @@ Tags: blue, gray, orange, pink, purple, dark, light, two-columns, right-sidebar,
 Text Domain: advertica-lite-child
 Template: advertica-lite
 */
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oxygen', sans-serif;
+  color: #444444;
+}
+h3#full-client-box {
+  font-family: 'Oxygen', sans-serif;
+}
+.title {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'Oxygen', sans-serif;
+}
+.bread-title-holder h1.title {
+  font-size: 40px;
+  line-height: 40px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.featured-image {
+  width: auto;
+}
 .skt-section {
   margin-bottom: 65px;
 }
@@ -34,11 +69,6 @@ blockquote.feature-tour_section-title h2{
   box-shadow: 0px 0px 25px #888888;
 }
 .container_inner.clearfix {
-  /*background: rgba(255, 255, 255, 0.90);
-  border-radius: 25px;
-  box-shadow: 0px 0px 10px grey;
-  padding: 2px;*/
-  
   background: rgba(255, 255, 255, 0.9);
   padding: 10px;
   border: 1px solid #e1e1e1;
@@ -47,12 +77,6 @@ blockquote.feature-tour_section-title h2{
 {
   width: 195px;
 }
-body {
-  font-size: 16px;
-}
-h2 {
-  font-size: 22px;
-}
 #skenav a {
   font-size: 16px;
   line-height: 70px;
@@ -60,7 +84,11 @@ h2 {
   padding-right: 20px;
 }
 .skehead-headernav .logo {
-  margin-top: 10px;
+  margin-top: 15px;
+  height: 36px;
+}
+.skehead-headernav.skehead-headernav-shrink .logo {
+  margin-top: 7px;
 }
 #logo {
   margin: 0px;
@@ -75,6 +103,12 @@ img.nav-section {
   height: 125px;
   cursor:pointer;
 }
+.post-title a {
+  font-family: inherit;
+}
+.fullwidth-temp .container.post-wrap {
+  margin-bottom: 20px;
+}
 #skenav .ske-menu, ul.menu {
   font-size: 16px;
 }
@@ -83,4 +117,16 @@ img.nav-section {
 }
 #footer .third_wrapper .owner {
   font-size: 14px;
+}
+span.category {
+  font-weight:bold;
+}
+span.category a {
+  color: #0079C1;
+}
+span.tags {
+  font-weight:bold;
+}
+span.tags a {
+  color: #0079C1;
 }
