@@ -11,6 +11,9 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.1.1 =
+* Changed the way the Google Font is imported
+
 = 0.1.0 =
 * Removed the paralax completely
 * Fixed headers (only one H1 per page)

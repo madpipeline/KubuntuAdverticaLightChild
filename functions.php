@@ -22,3 +22,10 @@ function theme_enqueue_styles() {
 // [year]
 function year_func() { return date('Y'); }
 add_shortcode('year', 'year_func');
+
+function wp_add_google_fonts() {
+    wp_register_style('google-fonts-style',
+        'http://fonts.googleapis.com/css?family=Oxygen:400,300,700');
+    wp_enqueue_style('google-fonts-style');
+}
+add_action('wp_print_styles', 'wp_add_google_fonts');
