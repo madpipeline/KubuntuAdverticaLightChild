@@ -5,6 +5,8 @@ Tags: blue, gray, orange, pink, purple, dark, light, two-columns, right-sidebar,
 Requires at least: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Original Theme Name: Advertica Lite
+Original Theme URL: https://wordpress.org/themes/advertica-lite/
 
 == Description ==
 A child theme for the Advertica Lite theme, optimized for the Kubuntu project's website
