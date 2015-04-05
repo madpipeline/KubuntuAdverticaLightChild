@@ -95,8 +95,11 @@ img.feature_tour_nav_element {
   margin-bottom: 0px;
 }
 .feature_tour_section {
-  padding: 30px 0px;
+  padding: 70px 0px;
   text-align: center;
+}
+.feature_tour_section img {
+  margin-bottom: 40px !important;
 }
 .screenshot_shaddow {
   box-shadow: 0px 0px 25px #888888;
@@ -117,6 +120,26 @@ span.tags a {
   color: #0079C1;
 }
 /*****************************************************************************/
+/* Main Navigation */
+#skenav a {
+  font-size: 16px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+.skehead-headernav .logo {
+  margin-top: 15px;
+  height: 36px;
+}
+.skehead-headernav.skehead-headernav-shrink .logo {
+  margin-top: 7px;
+}
+@media all and (min-width: 1025px) and (max-height: 1199px) {
+    #skenav a {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+}
+/*****************************************************************************/
 .container_inner.clearfix {
   background: rgba(255, 255, 255, 0.9);
   padding: 10px;
@@ -126,19 +149,7 @@ span.tags a {
 {
   width: 195px;
 }
-#skenav a {
-  font-size: 16px;
-  line-height: 70px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.skehead-headernav .logo {
-  margin-top: 15px;
-  height: 36px;
-}
-.skehead-headernav.skehead-headernav-shrink .logo {
-  margin-top: 7px;
-}
+
 #logo {
   margin: 0px;
   max-height: 70px;
