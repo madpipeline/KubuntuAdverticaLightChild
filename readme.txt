@@ -13,6 +13,10 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.2.1 =
+* Added new template for actual full width page
+* Redid the Featured page (more CSS)
+
 = 0.1.1 =
 * Changed the way the Google Font is imported
 
