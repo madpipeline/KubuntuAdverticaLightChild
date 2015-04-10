@@ -74,15 +74,15 @@ h3#full-client-box {
 }
 .feature_tour_nav ul li {
   display: inline-block;
-  width: 125px;
-  height: 125px;
-  padding: 2px;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
   margin-left: 0px;
   border-radius: 10px;
-  background: #EDF1F2;
+  border: 1px solid #EDF1F2;
 }
 .feature_tour_nav ul li:hover {
-  background: #48505B;
+  background: #EDF1F2;
 }
 img.feature_tour_nav_element {
   margin: 2px;
@@ -91,15 +91,18 @@ img.feature_tour_nav_element {
 .feature_tour_section:nth-of-type(even) {
   background: #EDF1F2;
 }
-.feature_tour_section p{
-  margin-bottom: 0px;
-}
 .feature_tour_section {
   padding: 70px 0px;
   text-align: center;
 }
+.feature_tour_section p {
+  margin-bottom: 0px;
+}
+.feature_tour_section h2 {
+  font-size: 32px;
+}
 .feature_tour_section img {
-  margin-bottom: 40px !important;
+  margin: 40px 0px !important;
 }
 .screenshot_shaddow {
   box-shadow: 0px 0px 25px #888888;
@@ -145,11 +148,6 @@ span.tags a {
   padding: 10px;
   border: 1px solid #e1e1e1;
 }
-#sidebar #searchform input[type="text"]
-{
-  width: 195px;
-}
-
 #logo {
   margin: 0px;
   max-height: 70px;
@@ -168,4 +166,11 @@ span.tags a {
 }
 #footer .third_wrapper .owner {
   font-size: 14px;
+}
+/*****************************************************************************/
+/* Social Plugins  */
+.social_plugin {
+    display: block;
+    float: left;
+    margin: 0px 10px;
 }

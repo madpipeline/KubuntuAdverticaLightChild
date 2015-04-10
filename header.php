@@ -23,8 +23,22 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
+    <!--  BEGIN Google+ plugin    -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--  END Google+ plugin    -->
 </head>
 <body <?php body_class(); ?> >
+    <!--  BEGIN Facebook plugin    -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--  END Facebook plugin    -->
 	<div id="wrapper" class="skepage">
 		<div id="header" class="skehead-headernav clearfix">
 			<div class="glow">
