@@ -142,11 +142,16 @@ span.tags a {
         padding-right: 19px;
     }
 }
+.skt-mob-menu {
+    top: 55px !important;
+}
 /*****************************************************************************/
-.container_inner.clearfix {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 10px;
-  border: 1px solid #e1e1e1;
+/* Header  */
+.bread-title-holder h1.title {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgb(60, 60, 60);
+  font-size: 50px;
 }
 #logo {
   margin: 0px;
