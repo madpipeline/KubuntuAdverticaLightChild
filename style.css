@@ -179,3 +179,23 @@ span.tags a {
     float: left;
     margin: 0px 10px;
 }
+/*****************************************************************************/
+/* Team Page  */
+.team_list.next() {
+    clear: both;
+}
+.kubuntu_member {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #efefef;
+}
+.km_picture {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.km_info {
+    float: left;
+}
