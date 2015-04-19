@@ -40,7 +40,7 @@ h3#full-client-box {
 }
 .bread-title-holder h1.title {
   font-size: 40px;
-  line-height: 40px;
+  line-height: 45px;
 }
 /*****************************************************************************/
 /* Template Images */
@@ -181,21 +181,54 @@ span.tags a {
 }
 /*****************************************************************************/
 /* Team Page  */
-.team_list.next() {
+#team_list {
+    max-width: 1000px;
+    margin: auto;
+}
+#team_list + hr {
     clear: both;
 }
 .kubuntu_member {
     float: left;
     margin: 10px;
     padding: 10px;
-    border-radius: 7px;
-    background: #efefef;
 }
 .km_picture {
     float: left;
+    margin-right: 10px;
+}
+.km_picture img {
     width: 150px;
     height: 150px;
+    box-shadow: 3px 3px 3px #AEAEAE;
 }
 .km_info {
     float: left;
+    width: 300px;
+}
+.km_info h2 {
+    margin-bottom: 10px;
+    display: inline;
+}
+.km_info p {
+    display: inline;
+}
+.km_info h4 {
+    font-weight: bold;
+    display: inline;
+}
+.km_irc {
+    margin-bottom: 10px;
+}
+.km_irc p {
+    font-style: italic;
+}
+.km_blog {
+    margin-bottom: 10px;
+}
+.km_blog p {
+    font-style: italic;
+}
+hr + p {
+    text-align: center;
 }
