@@ -4,8 +4,8 @@
 		<div class="mid-box-mid row-fluid"> 
 			<!-- Featured Box 1 -->
 			<div class="mid-box span3 fade_in_hide element_fade_in">
-				<div class="skt-iconbox iconbox-top">		
-					<div class="iconbox-icon skt-animated small-to-large skt-viewport">	
+				<div class="skt-iconbox iconbox-top">
+					<div class="iconbox-icon skt-animated small-to-large skt-viewport">
 						<?php if(sketch_get_option($advertica_shortname.'_fb1_first_part_image')) { ?>
 							<a class="skt-featured-images" href="<?php if(sketch_get_option($advertica_shortname."_fb1_first_part_link")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_link"); } ?>" title="<?php if(sketch_get_option($advertica_shortname."_fb1_first_part_heading")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_heading"); } ?>">
 									<span class="skt-featured-image-mask"></span>
@@ -16,10 +16,10 @@
 							<i class="fa fa-briefcase"></i>		  
 						</a>
 						<?php } ?>
-					</div>		
-					<div class="iconbox-content">		
-						<h4><?php if(sketch_get_option($advertica_shortname."_fb1_first_part_heading")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_heading"); } ?></h4>			
-						<p><?php if(sketch_get_option($advertica_shortname."_fb1_first_part_content")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_content"); } ?></p>		
+					</div>
+					<div class="iconbox-content">
+                        <h4><?php if(sketch_get_option($advertica_shortname."_fb1_first_part_heading")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_heading"); } ?></h4>
+						<p><?php if(sketch_get_option($advertica_shortname."_fb1_first_part_content")) { echo sketch_get_option($advertica_shortname."_fb1_first_part_content"); } ?></p>
 					</div>			
 					<div class="clearfix"></div>	
 				</div>

@@ -78,7 +78,7 @@ h3#full-client-box {
   height: 90px;
   padding: 10px;
   margin-left: 0px;
-  border-radius: 10px;
+  border-radius: 2px;
   border: 1px solid #EDF1F2;
 }
 .feature_tour_nav ul li:hover {
@@ -182,7 +182,7 @@ span.tags a {
 /*****************************************************************************/
 /* Team Page  */
 #team_list {
-    max-width: 1000px;
+    max-width: 1060px;
     margin: auto;
 }
 #team_list + hr {
@@ -195,40 +195,46 @@ span.tags a {
 }
 .km_picture {
     float: left;
-    margin-right: 10px;
+    margin: 0px 30px 10px 0px;
 }
 .km_picture img {
     width: 150px;
     height: 150px;
-    box-shadow: 3px 3px 3px #AEAEAE;
+    border-radius: 150px;
 }
 .km_info {
     float: left;
     width: 300px;
 }
 .km_info h2 {
-    margin-bottom: 10px;
-    display: inline;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .km_info p {
     display: inline;
+    font-size: 14px;
+    color: #444;
 }
 .km_info h4 {
-    font-weight: bold;
     display: inline;
+    font-size: 14px;
+    color: #999;
 }
 .km_irc {
-    margin-bottom: 10px;
 }
 .km_irc p {
     font-style: italic;
 }
 .km_blog {
-    margin-bottom: 10px;
 }
 .km_blog p {
     font-style: italic;
 }
 hr + p {
     text-align: center;
+}
+/*****************************************************************************/
+/* Download page  */
+.slide_title {
+    cursor: pointer;
 }
