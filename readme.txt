@@ -17,7 +17,7 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 * Fixed main navigation
 * Added social support
 * Improvements on the Team page
-* Removed author from category feed
+* Removed author, comments and duplicate title from category feed meta
 
 = 0.2.1 =
 * Added new template for actual full width page
