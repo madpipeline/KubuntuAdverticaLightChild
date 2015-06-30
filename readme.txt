@@ -13,6 +13,12 @@ A child theme for the Advertica Lite theme, optimized for the Kubuntu project's 
 
 == Changelog ==
 
+= 0.3.0 =
+* Fixed main navigation
+* Added social support
+* Improvements on the Team page
+* Removed author from category feed
+
 = 0.2.1 =
 * Added new template for actual full width page
 * Redid the Featured page (more CSS)
