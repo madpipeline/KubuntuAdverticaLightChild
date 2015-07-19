@@ -53,7 +53,7 @@ get_header(); ?>
                             <span class="date"><?php _e('On','advertica-lite');?> <?php the_time('F j, Y') ?></span><?php _e(',','advertica-lite');?>
 <!--                             <span class="author-name"><?php //_e('Posted by ','advertica-lite'); the_author_posts_link(); ?> </span><?php //_e(',','advertica-lite');?> -->
                             <?php if (has_category()) { ?><span class="category"><?php _e('Category ','advertica-lite');?><?php the_category(','); ?></span><?php _e(',','advertica-lite');?><?php } ?>
-                            <?php the_tags('<span class="tags">Tags ',',','</span>'); ?>
+                            <?php the_tags('<span class="tags">Tags ',', ','</span>'); ?>
 <!--                             <span class="comments"><?php //_e('With ','advertica-lite');?><?php //comments_popup_link(__('No Comments ','advertica-lite'), __('1 Comment ','advertica-lite'), __('% Comments ','advertica-lite')) ; ?></span> -->
                         </div>
                         <!-- skepost-meta -->
