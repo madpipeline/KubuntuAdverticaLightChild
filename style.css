@@ -196,6 +196,7 @@ span.tags a {
 .km_picture {
     float: left;
     margin: 0px 30px 10px 0px;
+    height: 160px;
 }
 .km_picture img {
     width: 150px;
